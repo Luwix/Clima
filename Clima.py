@@ -9,14 +9,14 @@ import time
 
 class ClimaApp(tk.Tk):
     # ADICIONE SUA CHAVE API ATRAVES DO SITE: https://home.openweathermap.org
-    API_KEY = "e4a73302776c983241821455c2815b63"
+    API_KEY = "NUMERO DA CHAVE"
 
     def __init__(self):
         super().__init__()
         self.title('Clima')
         height = 550
         width = 940
-        x = (self.winfo_screenwidth() // 2) - (width // 2)
+        x = (self.winfo_screenwidth() // 2) - (width // 2)A
         y = (self.winfo_screenheight() // 4) - (height // 4)
         self.geometry('{}x{}+{}+{}'.format(width, height, x, y))
         self.resizable(0, 0)
